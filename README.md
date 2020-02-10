@@ -1,7 +1,7 @@
-# hello-world
-你好，世界
+java的基础学习心得
 
-Hi Humans!
+1.首先下载解压jdk.rar
 
-Hubot here , I Like Node.js and Coffeescript (that's what I'm made of!).
-I've had tacos on the moon and find them far superior to Earth tacos.
+2.（Win10系统）进行环境变量配置，首先win+Pause组合键打开系统窗口，点击高级系统设置，点击环境变量，在系统变量下方新建系统变量。变量名我设置为JAVA_HOME,变量值设置为D:\jdk这是我安装jdk的路径，设置完成后就点击确定。然后就在系统变量下找到Path进行编辑，在编辑环境变量下新建%JAVA_HOME%\bin然后点击确定、确定、确定。
+
+3.打开cmd窗口，输入java -version，注意：java和-version之间是有一个空格的距离。当显示版型信息时，即配置成功。
